@@ -1,5 +1,5 @@
 # CCompilers
-C Compiler constants
+C Compiler constants and macros for determining compiler
 
 Example of use
 
