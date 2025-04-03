@@ -61,6 +61,7 @@
 #include "CompilerKAICpp.h"
 #include "CompilerKEILC51.h"
 #include "CompilerKEILC166.h"
+#include "CompilerKEILC251.h"
 #include "CompilerKEILCARM.h"
 
 #include "CompilerLCC.h"
