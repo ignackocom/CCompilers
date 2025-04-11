@@ -17,7 +17,7 @@
 #define COMPILER_KEIL_CARM			((COMPILER_KEIL_C251)+1)
 #define COMPILER_KEIL_CARM_NAME		"KEIL CARM"
 
-#if defined(__KEIL__) || defined(__CA__)
+#if defined(__CA__)
 
 	#define COMPILER        COMPILER_KEIL_CARM
 	#define COMPILER_NAME   COMPILER_KEIL_CARM_NAME
