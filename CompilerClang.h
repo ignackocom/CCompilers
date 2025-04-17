@@ -17,12 +17,10 @@
 #define COMPILER_CLANG			((COMPILER_CC65)+1)
 #define COMPILER_CLANG_NAME		"Clang"
 
-#if defined(__clang__)
-
+#if defined(__clang__) && !defined(__TURBOC__) && !defined(__BORLANDC__) && !defined(__CODEGEARC__)
 	#define COMPILER        COMPILER_CLANG
 	#define COMPILER_NAME   COMPILER_CLANG_NAME
 
 #endif
-
 
 #endif /* COMPILERCLANG_H */

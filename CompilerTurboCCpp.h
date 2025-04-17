@@ -17,12 +17,11 @@
 #define COMPILER_TURBO_CCPP			((COMPILER_TINY_C)+1)
 #define COMPILER_TURBO_CCPP_NAME	"Turbo C/C++"
 
-#if defined(__TURBOC__)
+#if defined(__TURBOC__) && !defined(__clang__) && !defined(__BORLANDC__) && !defined(__CODEGEARC__)
 
 	#define COMPILER        COMPILER_TURBO_CCPP
 	#define COMPILER_NAME   COMPILER_TURBO_CCPP_NAME
 
 #endif
-
 
 #endif /* COMPILERTURBOCCPP_H */
