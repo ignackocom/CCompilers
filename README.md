@@ -3,7 +3,7 @@ C Compiler constants and macros for determining compiler
 
 Example of use
 
-```
+```c
 #if COMPILER == 0
 #error "Unknown compiler"
 #endif
