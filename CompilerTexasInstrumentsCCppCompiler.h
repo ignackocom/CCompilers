@@ -2,12 +2,14 @@
 * \file      CompilerTexasInstrumentsCCppCompiler.h
 * \version   2025.03.18.01
 * \author    Peter Potrok
+*            ignacko.com@outlook.com
 * \copyright Copyright (c) 1994 - 2025
 *            MIT License (see License.txt file)
 * \brief     Texas Instruments C/C++ Compiler definitions
 * \details
 *
-* \see       https://github.com/cpredef/predef
+* \see       https://github.com/ignackocom
+*			 https://github.com/cpredef/predef
 *            and other resources
 ******************************************************************************/
 #ifndef COMPILERTEXASINSTRUMENTSCCPPCOMPILER_H

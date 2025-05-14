@@ -1,30 +1,23 @@
 /******************************************************************************
-* \file      CompilerNVHPC.h
+* \file      CCompilers.c
 * \version   2025.03.18.01
 * \author    Peter Potrok
 *            ignacko.com@outlook.com
 * \copyright Copyright (c) 1994 - 2025
 *            MIT License (see License.txt file)
-* \brief     NVHPC definitions
+* \brief     Compiler constant definitions
 * \details
 *
 * \see       https://github.com/ignackocom
 *			 https://github.com/cpredef/predef
 *            and other resources
 ******************************************************************************/
-#ifndef COMPILERNVHPC_H
-#define COMPILERNVHPC_H		20250318L
+
+#include "CCompilers.h"
 
 
-#define COMPILER_NVHPC			((COMPILER_NORCROFT_C)+1)
-#define COMPILER_NVHPC_NAME		"NVHPC"
 
-#if defined(__NVCOMPILER)
-
-	#define COMPILER        COMPILER_NVHPC
-	#define COMPILER_NAME   COMPILER_NVHPC_NAME
-
-#endif
-
-
-#endif /* COMPILERNVHPC_H */
+long COMPILERS_VERSION(void)
+{
+    return (CCOMPILERS_H);
+}
